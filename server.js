@@ -8,8 +8,8 @@ app.use(cors());
 const PORT = 8000;
 
 // 👇 replace with your Agora App ID and Certificate
-const APP_ID = "1cedd1a42d98423ea3dde3843b84493d";
-const APP_CERTIFICATE = "e72e579a906d4222a0154554878fbd8b";
+const APP_ID = "";
+const APP_CERTIFICATE = "";
 
 app.get("/rtc-token", (req, res) => {
   const channelName = req.query.channelName;
